@@ -39,7 +39,7 @@ class _OnboardScreenState extends State<OnboardScreen> {
                 : Image.asset('assets/o$index.png'),
           ),
           Container(
-            height: 306,
+            height: 320,
             color: const Color(0xff2C1A1A),
             child: Column(
               children: [
@@ -52,8 +52,8 @@ class _OnboardScreenState extends State<OnboardScreen> {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 22,
-                        fontFamily: 'w700',
+                        fontSize: 18,
+                        fontFamily: 'w600',
                       ),
                     ),
                   )
@@ -67,7 +67,7 @@ class _OnboardScreenState extends State<OnboardScreen> {
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         color: Colors.white,
-                        fontSize: 22,
+                        fontSize: 18,
                         fontFamily: 'w700',
                       ),
                     ),
@@ -82,7 +82,7 @@ class _OnboardScreenState extends State<OnboardScreen> {
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         color: Colors.white,
-                        fontSize: 22,
+                        fontSize: 18,
                         fontFamily: 'w300',
                       ),
                     ),

@@ -211,7 +211,7 @@ class _Card extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 256,
+      // height: 256,
       margin: const EdgeInsets.symmetric(horizontal: 14),
       decoration: BoxDecoration(
         color: const Color(0xff2C1A1A),
@@ -286,6 +286,7 @@ class _Tile extends StatelessWidget {
                 children: [
                   Text(
                     title,
+                    maxLines: 1,
                     style: const TextStyle(
                       color: Colors.white,
                       fontSize: 16,
